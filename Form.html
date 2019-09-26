@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Sample</title>
+</head>
+<body>
+ <header>
+            <h1>Sociological Survey</h1>
+            <nav>
+                <a href="index.html">Home</a>
+            </nav>
+        <section>
+         <h2>What do you think about a possibility of life on Mars?</h2>
+        <h3>Send us your opinion!</h3>
+        <img src="img/giphy.gif" alt="Gif">
+        </section>
+
+</header>
+        <form method="POST" action="https://formspree.io/tpetrovska1995@gmail.com">
+            <label>Your name
+            <br>
+            <input type="text" placeholder="Name" name="name">
+            </label>
+            <br>
+            <label for="email">Your email</label>
+            <br>
+            <input type="email" placeholder="Email"
+             id="email" name="email">
+             <br>
+             <label>Phone number</label>
+             <br>
+             <input type="text" placeholder="Number" name="number">
+             <br>
+             <label>Gender</label>
+             <br>
+             <label>
+                <input type="radio" name="gender" value="male">Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female">Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="other">Other
+            </label>
+                <br>
+                <label>Your age</label>
+                <br>
+                <input type="number" name="quantity" min="1" max="100">
+            <br>
+                <label>Your answer</label>
+            <br>
+                <input type="text" placeholder="Your answer" name="answer">
+
+
+             <br>
+                <input type="submit">
+            <br>
+                <label>Thanks for your activity!</label>
+        </form>
+
+</body>
+
+</html>
